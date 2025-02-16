@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #A88D6D; 
     text-decoration: none;
+    text-align: center;
 }
 
 
@@ -73,7 +74,7 @@ li {
     margin: 20px auto; 
     text-align: center; 
     border: 2px solid #C2A88E;
-    text-decoration: none;
+    
  
     
 }
@@ -115,7 +116,7 @@ footer {
   
   
   .nav-link:hover {
-    background-color: #C2A88E; 
+    background-color: #A88D6D; 
     color: #fff; 
     transform: translateY(-3px); 
   }
@@ -133,3 +134,9 @@ footer {
        
     }
 }
+  @media screen (max-width 800px){
+   {main
+        grid-template-cloums : 1fr}
+
+  }
+  
